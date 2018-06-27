@@ -1,0 +1,14 @@
+//
+//  GlobalColor.pch
+//  LittlePig
+//
+//  Created by 达联 on 2018/6/26.
+//  Copyright © 2018年 Riber. All rights reserved.
+//
+
+#ifndef GlobalColor_pch
+#define GlobalColor_pch
+
+#define BLUE [UIColor colorWithRed:0/255.0 green:147/255.0 blue:254/255.0 alpha:1]
+
+#endif /* GlobalColor_pch */

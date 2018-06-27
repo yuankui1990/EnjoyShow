@@ -1,0 +1,22 @@
+//
+//  Method.pch
+//  LittlePig
+//
+//  Created by 达联 on 2018/6/26.
+//  Copyright © 2018年 Riber. All rights reserved.
+//
+
+#ifndef Method_pch
+#define Method_pch
+
+#define WINDOW_W [[UIApplication sharedApplication].delegate window].frame.size.width
+#define WINDOW_H [[UIApplication sharedApplication].delegate window].frame.size.height
+#define VIEW_X(view) view.frame.origin.x
+#define VIEW_Y(view) view.frame.origin.y
+#define VIEW_W(view) view.frame.size.width
+#define VIEW_H(view) view.frame.size.height
+
+
+#define GetImage(__key__) [UIImage imageNamed:__key__]
+
+#endif /* Method_pch */
