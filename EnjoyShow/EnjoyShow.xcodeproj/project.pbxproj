@@ -16,6 +16,9 @@
 		3137865520E1DE0100DB91CF /* FatherTableView_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3137865420E1DE0100DB91CF /* FatherTableView_VC.m */; };
 		3137865820E1DE5800DB91CF /* Index_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3137865720E1DE5800DB91CF /* Index_VC.m */; };
 		3137865C20E1E04A00DB91CF /* PublicMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 3137865B20E1E04A00DB91CF /* PublicMethod.m */; };
+		315B620120E4897900FE65FD /* UIViewController+NavBarHidden.m in Sources */ = {isa = PBXBuildFile; fileRef = 315B61FF20E4897900FE65FD /* UIViewController+NavBarHidden.m */; };
+		31A8301220E4C13F00089F89 /* CollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 31A8301020E4C13F00089F89 /* CollectionViewFlowLayout.m */; };
+		31A8301420E4D32E00089F89 /* myHeadImg.png in Resources */ = {isa = PBXBuildFile; fileRef = 31A8301320E4D32E00089F89 /* myHeadImg.png */; };
 		31D7956B20E3727000DB1839 /* PublicCreateUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 31D7956920E3726F00DB1839 /* PublicCreateUI.m */; };
 		31D7957020E3775E00DB1839 /* addImg.png in Resources */ = {isa = PBXBuildFile; fileRef = 31D7956E20E3775E00DB1839 /* addImg.png */; };
 		31D7957420E37A7300DB1839 /* tabbar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 31D7957120E37A7300DB1839 /* tabbar@2x.png */; };
@@ -47,6 +50,11 @@
 		3137865720E1DE5800DB91CF /* Index_VC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Index_VC.m; sourceTree = "<group>"; };
 		3137865A20E1E04A00DB91CF /* PublicMethod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PublicMethod.h; sourceTree = "<group>"; };
 		3137865B20E1E04A00DB91CF /* PublicMethod.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PublicMethod.m; sourceTree = "<group>"; };
+		315B61FF20E4897900FE65FD /* UIViewController+NavBarHidden.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+NavBarHidden.m"; sourceTree = "<group>"; };
+		315B620020E4897900FE65FD /* UIViewController+NavBarHidden.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+NavBarHidden.h"; sourceTree = "<group>"; };
+		31A8301020E4C13F00089F89 /* CollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewFlowLayout.m; sourceTree = "<group>"; };
+		31A8301120E4C13F00089F89 /* CollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		31A8301320E4D32E00089F89 /* myHeadImg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myHeadImg.png; sourceTree = "<group>"; };
 		31D7956920E3726F00DB1839 /* PublicCreateUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PublicCreateUI.m; sourceTree = "<group>"; };
 		31D7956A20E3727000DB1839 /* PublicCreateUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublicCreateUI.h; sourceTree = "<group>"; };
 		31D7956E20E3775E00DB1839 /* addImg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = addImg.png; sourceTree = "<group>"; };
@@ -180,9 +188,29 @@
 			path = PublicMothed;
 			sourceTree = "<group>";
 		};
+		315B61FE20E4895400FE65FD /* NavBarHidden */ = {
+			isa = PBXGroup;
+			children = (
+				315B620020E4897900FE65FD /* UIViewController+NavBarHidden.h */,
+				315B61FF20E4897900FE65FD /* UIViewController+NavBarHidden.m */,
+			);
+			path = NavBarHidden;
+			sourceTree = "<group>";
+		};
+		315B620520E4BFA300FE65FD /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				31A8301120E4C13F00089F89 /* CollectionViewFlowLayout.h */,
+				31A8301020E4C13F00089F89 /* CollectionViewFlowLayout.m */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
 		31D7956720E3611200DB1839 /* Lib */ = {
 			isa = PBXGroup;
 			children = (
+				315B620520E4BFA300FE65FD /* CollectionView */,
+				315B61FE20E4895400FE65FD /* NavBarHidden */,
 			);
 			path = Lib;
 			sourceTree = "<group>";
@@ -190,6 +218,7 @@
 		31D7956820E3611A00DB1839 /* Img */ = {
 			isa = PBXGroup;
 			children = (
+				31A8301320E4D32E00089F89 /* myHeadImg.png */,
 				31D7956C20E3773700DB1839 /* HomePage */,
 			);
 			path = Img;
@@ -300,6 +329,7 @@
 				31D7957020E3775E00DB1839 /* addImg.png in Resources */,
 				31D7957520E37A7300DB1839 /* tabbar@3x.png in Resources */,
 				31D7957620E37A7300DB1839 /* tabbar.png in Resources */,
+				31A8301420E4D32E00089F89 /* myHeadImg.png in Resources */,
 				07EE842120E0F48200D9C9A6 /* Assets.xcassets in Resources */,
 				07EE841F20E0F47F00D9C9A6 /* Main.storyboard in Resources */,
 			);
@@ -314,7 +344,9 @@
 			files = (
 				31D7958320E3A46300DB1839 /* MyInfo_VC.m in Sources */,
 				3137865C20E1E04A00DB91CF /* PublicMethod.m in Sources */,
+				315B620120E4897900FE65FD /* UIViewController+NavBarHidden.m in Sources */,
 				07EE842720E0F48200D9C9A6 /* main.m in Sources */,
+				31A8301220E4C13F00089F89 /* CollectionViewFlowLayout.m in Sources */,
 				3137865520E1DE0100DB91CF /* FatherTableView_VC.m in Sources */,
 				3137865820E1DE5800DB91CF /* Index_VC.m in Sources */,
 				31D7957D20E3984100DB1839 /* IndexNavTitleView.m in Sources */,
