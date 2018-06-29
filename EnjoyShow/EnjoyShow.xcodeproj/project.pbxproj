@@ -59,6 +59,10 @@
 		31513BE720E5C0B90056ECB3 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 31513BDC20E5C0B90056ECB3 /* MASViewConstraint.m */; };
 		31513BE820E5C0B90056ECB3 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 31513BDD20E5C0B90056ECB3 /* MASViewAttribute.m */; };
 		31513BE920E5C0B90056ECB3 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 31513BDE20E5C0B90056ECB3 /* Info.plist */; };
+		31513C5420E5FE6E0056ECB3 /* PublicRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 31513C5320E5FE6E0056ECB3 /* PublicRequest.m */; };
+		31513C8F20E627060056ECB3 /* headInfo.png in Resources */ = {isa = PBXBuildFile; fileRef = 31513C8E20E627060056ECB3 /* headInfo.png */; };
+		31513C9320E627650056ECB3 /* MyHeadInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 31513C9220E627650056ECB3 /* MyHeadInfoView.m */; };
+		31513C9620E630490056ECB3 /* MyHeadTouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 31513C9520E630490056ECB3 /* MyHeadTouchView.m */; };
 		315B620120E4897900FE65FD /* UIViewController+NavBarHidden.m in Sources */ = {isa = PBXBuildFile; fileRef = 315B61FF20E4897900FE65FD /* UIViewController+NavBarHidden.m */; };
 		31A8301220E4C13F00089F89 /* CollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 31A8301020E4C13F00089F89 /* CollectionViewFlowLayout.m */; };
 		31A8301420E4D32E00089F89 /* myHeadImg.png in Resources */ = {isa = PBXBuildFile; fileRef = 31A8301320E4D32E00089F89 /* myHeadImg.png */; };
@@ -186,6 +190,13 @@
 		31513BDC20E5C0B90056ECB3 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
 		31513BDD20E5C0B90056ECB3 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
 		31513BDE20E5C0B90056ECB3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31513C5220E5FE6E0056ECB3 /* PublicRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PublicRequest.h; sourceTree = "<group>"; };
+		31513C5320E5FE6E0056ECB3 /* PublicRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PublicRequest.m; sourceTree = "<group>"; };
+		31513C8E20E627060056ECB3 /* headInfo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = headInfo.png; sourceTree = "<group>"; };
+		31513C9120E627650056ECB3 /* MyHeadInfoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyHeadInfoView.h; sourceTree = "<group>"; };
+		31513C9220E627650056ECB3 /* MyHeadInfoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyHeadInfoView.m; sourceTree = "<group>"; };
+		31513C9420E630490056ECB3 /* MyHeadTouchView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyHeadTouchView.h; sourceTree = "<group>"; };
+		31513C9520E630490056ECB3 /* MyHeadTouchView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyHeadTouchView.m; sourceTree = "<group>"; };
 		315B61FF20E4897900FE65FD /* UIViewController+NavBarHidden.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+NavBarHidden.m"; sourceTree = "<group>"; };
 		315B620020E4897900FE65FD /* UIViewController+NavBarHidden.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+NavBarHidden.h"; sourceTree = "<group>"; };
 		31A8301020E4C13F00089F89 /* CollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewFlowLayout.m; sourceTree = "<group>"; };
@@ -282,6 +293,7 @@
 			isa = PBXGroup;
 			children = (
 				31D7957A20E397FA00DB1839 /* HomePage */,
+				31513C9020E627210056ECB3 /* MyInfo */,
 			);
 			path = ProjectView;
 			sourceTree = "<group>";
@@ -320,6 +332,8 @@
 				31D7956920E3726F00DB1839 /* PublicCreateUI.m */,
 				3137865A20E1E04A00DB91CF /* PublicMethod.h */,
 				3137865B20E1E04A00DB91CF /* PublicMethod.m */,
+				31513C5220E5FE6E0056ECB3 /* PublicRequest.h */,
+				31513C5320E5FE6E0056ECB3 /* PublicRequest.m */,
 			);
 			path = PublicMothed;
 			sourceTree = "<group>";
@@ -486,6 +500,17 @@
 			path = Masonry;
 			sourceTree = "<group>";
 		};
+		31513C9020E627210056ECB3 /* MyInfo */ = {
+			isa = PBXGroup;
+			children = (
+				31513C9120E627650056ECB3 /* MyHeadInfoView.h */,
+				31513C9220E627650056ECB3 /* MyHeadInfoView.m */,
+				31513C9420E630490056ECB3 /* MyHeadTouchView.h */,
+				31513C9520E630490056ECB3 /* MyHeadTouchView.m */,
+			);
+			path = MyInfo;
+			sourceTree = "<group>";
+		};
 		315B61FE20E4895400FE65FD /* NavBarHidden */ = {
 			isa = PBXGroup;
 			children = (
@@ -528,6 +553,7 @@
 		31D7956C20E3773700DB1839 /* HomePage */ = {
 			isa = PBXGroup;
 			children = (
+				31513C8E20E627060056ECB3 /* headInfo.png */,
 				31D7957320E37A7300DB1839 /* tabbar.png */,
 				31D7957120E37A7300DB1839 /* tabbar@2x.png */,
 				31D7957220E37A7300DB1839 /* tabbar@3x.png */,
@@ -626,6 +652,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				07EE842420E0F48200D9C9A6 /* LaunchScreen.storyboard in Resources */,
+				31513C8F20E627060056ECB3 /* headInfo.png in Resources */,
 				31D7957420E37A7300DB1839 /* tabbar@2x.png in Resources */,
 				31D7957020E3775E00DB1839 /* addImg.png in Resources */,
 				31D7957520E37A7300DB1839 /* tabbar@3x.png in Resources */,
@@ -664,11 +691,13 @@
 				315B620120E4897900FE65FD /* UIViewController+NavBarHidden.m in Sources */,
 				31513BB020E5C0990056ECB3 /* UIImageView+AFNetworking.m in Sources */,
 				07EE842720E0F48200D9C9A6 /* main.m in Sources */,
+				31513C9320E627650056ECB3 /* MyHeadInfoView.m in Sources */,
 				31513BAC20E5C0990056ECB3 /* UIAlertView+AFNetworking.m in Sources */,
 				31513BE220E5C0B90056ECB3 /* MASConstraintMaker.m in Sources */,
 				31A8301220E4C13F00089F89 /* CollectionViewFlowLayout.m in Sources */,
 				31513B7120E5C0750056ECB3 /* IQBarButtonItem.m in Sources */,
 				31513B7720E5C0750056ECB3 /* IQUIWindow+Hierarchy.m in Sources */,
+				31513C5420E5FE6E0056ECB3 /* PublicRequest.m in Sources */,
 				31513BA620E5C0990056ECB3 /* AFURLSessionManager.m in Sources */,
 				3137865520E1DE0100DB91CF /* FatherTableView_VC.m in Sources */,
 				31513BE520E5C0B90056ECB3 /* View+MASAdditions.m in Sources */,
@@ -677,6 +706,7 @@
 				3137865820E1DE5800DB91CF /* Index_VC.m in Sources */,
 				31D7957D20E3984100DB1839 /* IndexNavTitleView.m in Sources */,
 				31513BA720E5C0990056ECB3 /* AFHTTPRequestOperationManager.m in Sources */,
+				31513C9620E630490056ECB3 /* MyHeadTouchView.m in Sources */,
 				31513BAB20E5C0990056ECB3 /* AFSecurityPolicy.m in Sources */,
 				31513BA920E5C0990056ECB3 /* AFHTTPRequestOperation.m in Sources */,
 				31513B6F20E5C0750056ECB3 /* IQToolbar.m in Sources */,
