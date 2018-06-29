@@ -48,13 +48,13 @@
  */
 - (void)createUI {
     
-//    self.headView = [PublicCreateUI viewWithFrame:CGRectMake(0, 0, WINDOW_W, VIEW_H(self.headInfoView)+60) BackColor:[UIColor blackColor]];
-//    [self.view addSubview:self.headView];
-//    [self.headView addSubview:self.headInfoView];
+    self.headView = [PublicCreateUI viewWithFrame:CGRectMake(0, 0, WINDOW_W, VIEW_H(self.headInfoView)+60) BackColor:[UIColor blackColor]];
+    [self.view addSubview:self.headView];
+    [self.headView addSubview:self.headInfoView];
 
     
-//    self.mainCollectionView.frame = CGRectMake(0, VIEW_H(self.headView), WINDOW_W, WINDOW_H-VIEW_H(self.headView)-49);
-    self.mainCollectionView.frame = CGRectMake(0, 0, WINDOW_W, WINDOW_H);
+    self.mainCollectionView.frame = CGRectMake(0, VIEW_H(self.headView), WINDOW_W, WINDOW_H-VIEW_H(self.headView)-49);
+//    self.mainCollectionView.frame = CGRectMake(0, 0, WINDOW_W, WINDOW_H);
     [self.view addSubview:self.mainCollectionView];
     
     
@@ -99,29 +99,27 @@
 
 #define mark ----------collectView代理方法---------------
 - (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView {
-    return 2;
+    return 1;
 }
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
-    if (section == 0) {
-        return 0;
-    } else {
-        return 20;
-    }
+    return 7;
 }
--(CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout referenceSizeForHeaderInSection:(NSInteger)section{
-//    if (section == 0) {
-//        return CGSizeMake(WINDOW_W, VIEW_H(self.headInfoView));
-//    }else{
-//    }
-    return CGSizeMake(WINDOW_W, 60);
-}
-- (UICollectionReusableView *)collectionView:(UICollectionView *)collectionView viewForSupplementaryElementOfKind:(NSString *)kind atIndexPath:(NSIndexPath *)indexPath {
-//    if (indexPath.section == 0) {
-//        return self.headInfoView;
-//    } else {
-//    }
-    return self.headTouchView;
-}
+//-(CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout referenceSizeForHeaderInSection:(NSInteger)section {
+////    if (section == 0) {
+////        return CGSizeMake(WINDOW_W, VIEW_H(self.headInfoView));
+////    }else{
+////    }
+//    return CGSizeMake(WINDOW_W, 60);
+//}
+//- (UICollectionReusableView *)collectionView:(UICollectionView *)collectionView viewForSupplementaryElementOfKind:(NSString *)kind atIndexPath:(NSIndexPath *)indexPath {
+////    if (indexPath.section == 0) {
+////        return self.headInfoView;
+////    } else {
+////    }
+//    self.headTouchView = [collectionView dequeueReusableSupplementaryViewOfKind:kind withReuseIdentifier:@"headTouch" forIndexPath:indexPath];
+//    self.headTouchView.backgroundColor = [UIColor redColor];
+//    return self.headTouchView;
+//}
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
     UICollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"collectionCell" forIndexPath:indexPath];
     if (indexPath.row%2 == 0) {
