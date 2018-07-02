@@ -74,6 +74,8 @@
 		31D7957D20E3984100DB1839 /* IndexNavTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 31D7957C20E3984100DB1839 /* IndexNavTitleView.m */; };
 		31D7958320E3A46300DB1839 /* MyInfo_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 31D7958220E3A46300DB1839 /* MyInfo_VC.m */; };
 		31D7958620E3A49F00DB1839 /* Tabbar_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 31D7958420E3A49E00DB1839 /* Tabbar_VC.m */; };
+		31EFF83220EA1F2200D6A98A /* MessageCenter_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 31EFF83120EA1F2200D6A98A /* MessageCenter_VC.m */; };
+		31EFF83520EA1F5500D6A98A /* HobbyCenter_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 31EFF83420EA1F5500D6A98A /* HobbyCenter_VC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -214,6 +216,10 @@
 		31D7958220E3A46300DB1839 /* MyInfo_VC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyInfo_VC.m; sourceTree = "<group>"; };
 		31D7958420E3A49E00DB1839 /* Tabbar_VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tabbar_VC.m; sourceTree = "<group>"; };
 		31D7958520E3A49E00DB1839 /* Tabbar_VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tabbar_VC.h; sourceTree = "<group>"; };
+		31EFF83020EA1F2200D6A98A /* MessageCenter_VC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageCenter_VC.h; sourceTree = "<group>"; };
+		31EFF83120EA1F2200D6A98A /* MessageCenter_VC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageCenter_VC.m; sourceTree = "<group>"; };
+		31EFF83320EA1F5500D6A98A /* HobbyCenter_VC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HobbyCenter_VC.h; sourceTree = "<group>"; };
+		31EFF83420EA1F5500D6A98A /* HobbyCenter_VC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HobbyCenter_VC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -583,6 +589,8 @@
 		31D7957F20E3A41000DB1839 /* Message */ = {
 			isa = PBXGroup;
 			children = (
+				31EFF83020EA1F2200D6A98A /* MessageCenter_VC.h */,
+				31EFF83120EA1F2200D6A98A /* MessageCenter_VC.m */,
 			);
 			path = Message;
 			sourceTree = "<group>";
@@ -590,6 +598,8 @@
 		31D7958020E3A42500DB1839 /* Hobby */ = {
 			isa = PBXGroup;
 			children = (
+				31EFF83320EA1F5500D6A98A /* HobbyCenter_VC.h */,
+				31EFF83420EA1F5500D6A98A /* HobbyCenter_VC.m */,
 			);
 			path = Hobby;
 			sourceTree = "<group>";
@@ -674,6 +684,7 @@
 			files = (
 				31513B7920E5C0750056ECB3 /* IQUIScrollView+Additions.m in Sources */,
 				31513B7820E5C0750056ECB3 /* IQUITextFieldView+Additions.m in Sources */,
+				31EFF83220EA1F2200D6A98A /* MessageCenter_VC.m in Sources */,
 				31513BDF20E5C0B90056ECB3 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				31513BE720E5C0B90056ECB3 /* MASViewConstraint.m in Sources */,
 				31513B6E20E5C0750056ECB3 /* IQTextView.m in Sources */,
@@ -697,6 +708,7 @@
 				31A8301220E4C13F00089F89 /* CollectionViewFlowLayout.m in Sources */,
 				31513B7120E5C0750056ECB3 /* IQBarButtonItem.m in Sources */,
 				31513B7720E5C0750056ECB3 /* IQUIWindow+Hierarchy.m in Sources */,
+				31EFF83520EA1F5500D6A98A /* HobbyCenter_VC.m in Sources */,
 				31513C5420E5FE6E0056ECB3 /* PublicRequest.m in Sources */,
 				31513BA620E5C0990056ECB3 /* AFURLSessionManager.m in Sources */,
 				3137865520E1DE0100DB91CF /* FatherTableView_VC.m in Sources */,
