@@ -15,7 +15,6 @@
 		3137865220E1DDE600DB91CF /* FatherView_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3137865120E1DDE600DB91CF /* FatherView_VC.m */; };
 		3137865520E1DE0100DB91CF /* FatherTableView_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3137865420E1DE0100DB91CF /* FatherTableView_VC.m */; };
 		3137865820E1DE5800DB91CF /* Index_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3137865720E1DE5800DB91CF /* Index_VC.m */; };
-		3137865C20E1E04A00DB91CF /* PublicMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 3137865B20E1E04A00DB91CF /* PublicMethod.m */; };
 		31513B6E20E5C0750056ECB3 /* IQTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 31513B4B20E5C0750056ECB3 /* IQTextView.m */; };
 		31513B6F20E5C0750056ECB3 /* IQToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 31513B4F20E5C0750056ECB3 /* IQToolbar.m */; };
 		31513B7020E5C0750056ECB3 /* IQTitleBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 31513B5120E5C0750056ECB3 /* IQTitleBarButtonItem.m */; };
@@ -74,6 +73,11 @@
 		31D7957D20E3984100DB1839 /* IndexNavTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 31D7957C20E3984100DB1839 /* IndexNavTitleView.m */; };
 		31D7958320E3A46300DB1839 /* MyInfo_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 31D7958220E3A46300DB1839 /* MyInfo_VC.m */; };
 		31D7958620E3A49F00DB1839 /* Tabbar_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 31D7958420E3A49E00DB1839 /* Tabbar_VC.m */; };
+		31E4220B20ECD3FD00849654 /* Login_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 31E4220920ECD3FD00849654 /* Login_VC.m */; };
+		31E4220E20ECD43400849654 /* LoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 31E4220D20ECD43400849654 /* LoginView.m */; };
+		31E4221120ECD46400849654 /* PullDownView.m in Sources */ = {isa = PBXBuildFile; fileRef = 31E4221020ECD46400849654 /* PullDownView.m */; };
+		31E4221420ECD49600849654 /* PublicMothed.m in Sources */ = {isa = PBXBuildFile; fileRef = 31E4221320ECD49600849654 /* PublicMothed.m */; };
+		31E4221820ECDECD00849654 /* Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 31E4221620ECDECD00849654 /* Toast.m */; };
 		31EFF83220EA1F2200D6A98A /* MessageCenter_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 31EFF83120EA1F2200D6A98A /* MessageCenter_VC.m */; };
 		31EFF83520EA1F5500D6A98A /* HobbyCenter_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 31EFF83420EA1F5500D6A98A /* HobbyCenter_VC.m */; };
 /* End PBXBuildFile section */
@@ -97,8 +101,6 @@
 		3137865420E1DE0100DB91CF /* FatherTableView_VC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FatherTableView_VC.m; sourceTree = "<group>"; };
 		3137865620E1DE5800DB91CF /* Index_VC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Index_VC.h; sourceTree = "<group>"; };
 		3137865720E1DE5800DB91CF /* Index_VC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Index_VC.m; sourceTree = "<group>"; };
-		3137865A20E1E04A00DB91CF /* PublicMethod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PublicMethod.h; sourceTree = "<group>"; };
-		3137865B20E1E04A00DB91CF /* PublicMethod.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PublicMethod.m; sourceTree = "<group>"; };
 		31513B4B20E5C0750056ECB3 /* IQTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQTextView.m; sourceTree = "<group>"; };
 		31513B4C20E5C0750056ECB3 /* IQTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQTextView.h; sourceTree = "<group>"; };
 		31513B4E20E5C0750056ECB3 /* IQUIView+IQKeyboardToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIView+IQKeyboardToolbar.h"; sourceTree = "<group>"; };
@@ -216,6 +218,16 @@
 		31D7958220E3A46300DB1839 /* MyInfo_VC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyInfo_VC.m; sourceTree = "<group>"; };
 		31D7958420E3A49E00DB1839 /* Tabbar_VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tabbar_VC.m; sourceTree = "<group>"; };
 		31D7958520E3A49E00DB1839 /* Tabbar_VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tabbar_VC.h; sourceTree = "<group>"; };
+		31E4220920ECD3FD00849654 /* Login_VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Login_VC.m; sourceTree = "<group>"; };
+		31E4220A20ECD3FD00849654 /* Login_VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Login_VC.h; sourceTree = "<group>"; };
+		31E4220C20ECD43400849654 /* LoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginView.h; sourceTree = "<group>"; };
+		31E4220D20ECD43400849654 /* LoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginView.m; sourceTree = "<group>"; };
+		31E4220F20ECD46400849654 /* PullDownView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PullDownView.h; sourceTree = "<group>"; };
+		31E4221020ECD46400849654 /* PullDownView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PullDownView.m; sourceTree = "<group>"; };
+		31E4221220ECD49600849654 /* PublicMothed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PublicMothed.h; sourceTree = "<group>"; };
+		31E4221320ECD49600849654 /* PublicMothed.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PublicMothed.m; sourceTree = "<group>"; };
+		31E4221620ECDECD00849654 /* Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Toast.m; sourceTree = "<group>"; };
+		31E4221720ECDECD00849654 /* Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Toast.h; sourceTree = "<group>"; };
 		31EFF83020EA1F2200D6A98A /* MessageCenter_VC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageCenter_VC.h; sourceTree = "<group>"; };
 		31EFF83120EA1F2200D6A98A /* MessageCenter_VC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageCenter_VC.m; sourceTree = "<group>"; };
 		31EFF83320EA1F5500D6A98A /* HobbyCenter_VC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HobbyCenter_VC.h; sourceTree = "<group>"; };
@@ -300,6 +312,7 @@
 			children = (
 				31D7957A20E397FA00DB1839 /* HomePage */,
 				31513C9020E627210056ECB3 /* MyInfo */,
+				31E4220820ECD3EA00849654 /* Login */,
 			);
 			path = ProjectView;
 			sourceTree = "<group>";
@@ -318,6 +331,7 @@
 				31D7958020E3A42500DB1839 /* Hobby */,
 				31D7957F20E3A41000DB1839 /* Message */,
 				31D7957E20E3A3FB00DB1839 /* MyInfo */,
+				31E4220720ECD3DB00849654 /* Login */,
 			);
 			path = ProjectController;
 			sourceTree = "<group>";
@@ -336,10 +350,10 @@
 			children = (
 				31D7956A20E3727000DB1839 /* PublicCreateUI.h */,
 				31D7956920E3726F00DB1839 /* PublicCreateUI.m */,
-				3137865A20E1E04A00DB91CF /* PublicMethod.h */,
-				3137865B20E1E04A00DB91CF /* PublicMethod.m */,
 				31513C5220E5FE6E0056ECB3 /* PublicRequest.h */,
 				31513C5320E5FE6E0056ECB3 /* PublicRequest.m */,
+				31E4221220ECD49600849654 /* PublicMothed.h */,
+				31E4221320ECD49600849654 /* PublicMothed.m */,
 			);
 			path = PublicMothed;
 			sourceTree = "<group>";
@@ -538,6 +552,7 @@
 		31D7956720E3611200DB1839 /* Lib */ = {
 			isa = PBXGroup;
 			children = (
+				31E4221520ECDEBB00849654 /* Public */,
 				31513BC420E5C0B90056ECB3 /* Masonry */,
 				31513B7D20E5C0990056ECB3 /* AFNetworking */,
 				31513B4920E5C0750056ECB3 /* IQKeyboardManager */,
@@ -602,6 +617,35 @@
 				31EFF83420EA1F5500D6A98A /* HobbyCenter_VC.m */,
 			);
 			path = Hobby;
+			sourceTree = "<group>";
+		};
+		31E4220720ECD3DB00849654 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				31E4220A20ECD3FD00849654 /* Login_VC.h */,
+				31E4220920ECD3FD00849654 /* Login_VC.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		31E4220820ECD3EA00849654 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				31E4220F20ECD46400849654 /* PullDownView.h */,
+				31E4221020ECD46400849654 /* PullDownView.m */,
+				31E4220C20ECD43400849654 /* LoginView.h */,
+				31E4220D20ECD43400849654 /* LoginView.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		31E4221520ECDEBB00849654 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				31E4221720ECDECD00849654 /* Toast.h */,
+				31E4221620ECDECD00849654 /* Toast.m */,
+			);
+			path = Public;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -696,10 +740,10 @@
 				31513BB220E5C0990056ECB3 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
 				31513BE120E5C0B90056ECB3 /* MASCompositeConstraint.m in Sources */,
 				31D7958320E3A46300DB1839 /* MyInfo_VC.m in Sources */,
-				3137865C20E1E04A00DB91CF /* PublicMethod.m in Sources */,
 				31513B7C20E5C0750056ECB3 /* IQKeyboardReturnKeyHandler.m in Sources */,
 				31513B7620E5C0750056ECB3 /* IQNSArray+Sort.m in Sources */,
 				315B620120E4897900FE65FD /* UIViewController+NavBarHidden.m in Sources */,
+				31E4220E20ECD43400849654 /* LoginView.m in Sources */,
 				31513BB020E5C0990056ECB3 /* UIImageView+AFNetworking.m in Sources */,
 				07EE842720E0F48200D9C9A6 /* main.m in Sources */,
 				31513C9320E627650056ECB3 /* MyHeadInfoView.m in Sources */,
@@ -708,6 +752,7 @@
 				31A8301220E4C13F00089F89 /* CollectionViewFlowLayout.m in Sources */,
 				31513B7120E5C0750056ECB3 /* IQBarButtonItem.m in Sources */,
 				31513B7720E5C0750056ECB3 /* IQUIWindow+Hierarchy.m in Sources */,
+				31E4221420ECD49600849654 /* PublicMothed.m in Sources */,
 				31EFF83520EA1F5500D6A98A /* HobbyCenter_VC.m in Sources */,
 				31513C5420E5FE6E0056ECB3 /* PublicRequest.m in Sources */,
 				31513BA620E5C0990056ECB3 /* AFURLSessionManager.m in Sources */,
@@ -728,6 +773,7 @@
 				31513BE620E5C0B90056ECB3 /* MASConstraint.m in Sources */,
 				31513BE020E5C0B90056ECB3 /* ViewController+MASAdditions.m in Sources */,
 				31513B7020E5C0750056ECB3 /* IQTitleBarButtonItem.m in Sources */,
+				31E4221820ECDECD00849654 /* Toast.m in Sources */,
 				31D7956B20E3727000DB1839 /* PublicCreateUI.m in Sources */,
 				31513BAE20E5C0990056ECB3 /* UIRefreshControl+AFNetworking.m in Sources */,
 				31513BAD20E5C0990056ECB3 /* UIProgressView+AFNetworking.m in Sources */,
@@ -736,6 +782,8 @@
 				31513B7B20E5C0750056ECB3 /* IQUIViewController+Additions.m in Sources */,
 				31513BAF20E5C0990056ECB3 /* AFNetworkActivityIndicatorManager.m in Sources */,
 				31513BB120E5C0990056ECB3 /* UIButton+AFNetworking.m in Sources */,
+				31E4221120ECD46400849654 /* PullDownView.m in Sources */,
+				31E4220B20ECD3FD00849654 /* Login_VC.m in Sources */,
 				31513B7220E5C0750056ECB3 /* IQUIView+IQKeyboardToolbar.m in Sources */,
 				31513BE420E5C0B90056ECB3 /* NSArray+MASAdditions.m in Sources */,
 				07EE841920E0F47F00D9C9A6 /* AppDelegate.m in Sources */,

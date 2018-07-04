@@ -13,9 +13,10 @@
 #import "Method.pch"
 #import "MacroValue.pch"
 #import "GlobalColor.pch"
-#import "PublicMethod.h"
+#import "PublicMothed.h"
 #import "PublicCreateUI.h"
 #import "Masonry.h"
+#import "Toast.h"
 
 
 

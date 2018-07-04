@@ -8,6 +8,7 @@
 
 #import "Index_VC.h"
 #import "IndexNavTitleView.h"
+#import "Login_VC.h"
 
 @interface Index_VC ()
 
@@ -29,6 +30,9 @@
     self.navTitleView = [[IndexNavTitleView alloc] initWithFrame:CGRectZero];
     self.navigationItem.titleView = self.navTitleView;
     [self methodBlock];
+    
+    Login_VC *login = [[Login_VC alloc] init];
+    [self presentViewController:login animated:YES completion:nil];
 }
 
 

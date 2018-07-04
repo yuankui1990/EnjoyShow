@@ -8,7 +8,7 @@
 
 #import "Tabbar_VC.h"
 #import "Index_VC.h"
-#import "PublicMethod.h"
+#import "PublicMothed.h"
 #import "MyInfo_VC.h"
 #import "HobbyCenter_VC.h"
 #import "MessageCenter_VC.h"
@@ -116,7 +116,7 @@
         homePage.navigationBar.barStyle = UIBarStyleBlack;
         [homePage.navigationBar setTintColor:[UIColor whiteColor]];
         [homePage.navigationBar setBarTintColor:[UIColor blackColor]];
-        [homePage.navigationBar setBackgroundImage:[PublicMethod getImgWithColor:[UIColor blackColor]] forBarMetrics:UIBarMetricsDefault];
+        [homePage.navigationBar setBackgroundImage:[PublicMothed getImgWithColor:[UIColor blackColor]] forBarMetrics:UIBarMetricsDefault];
         [homePage.tabBarItem setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor grayColor] ,NSFontAttributeName : [UIFont boldSystemFontOfSize:17]} forState:UIControlStateNormal];
         [homePage.tabBarItem setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor whiteColor] ,NSFontAttributeName : [UIFont boldSystemFontOfSize:20]} forState:UIControlStateSelected];
 //        [homePage.tabBarItem setImage:[[UIImage imageNamed:@"icon_sy_b_sy_black"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]];
@@ -138,7 +138,7 @@
         hobbyCenter.navigationBar.barStyle = UIBarStyleBlack;
         [hobbyCenter.navigationBar setTintColor:[UIColor whiteColor]];
         [hobbyCenter.navigationBar setBarTintColor:[UIColor blackColor]];
-        [hobbyCenter.navigationBar setBackgroundImage:[PublicMethod getImgWithColor:[UIColor blackColor]] forBarMetrics:UIBarMetricsDefault];
+        [hobbyCenter.navigationBar setBackgroundImage:[PublicMothed getImgWithColor:[UIColor blackColor]] forBarMetrics:UIBarMetricsDefault];
         [hobbyCenter.tabBarItem setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor grayColor] ,NSFontAttributeName : [UIFont boldSystemFontOfSize:17]} forState:UIControlStateNormal];
         [hobbyCenter.tabBarItem setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor whiteColor] ,NSFontAttributeName : [UIFont boldSystemFontOfSize:20]} forState:UIControlStateSelected];
 //        [hobbyCenter.tabBarItem setImage:[[UIImage imageNamed:@"icon_sy_b_sy_black"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]];
@@ -160,7 +160,7 @@
         messageCenter.navigationBar.barStyle = UIBarStyleBlack;
         [messageCenter.navigationBar setTintColor:[UIColor whiteColor]];
         [messageCenter.navigationBar setBarTintColor:[UIColor blackColor]];
-        [messageCenter.navigationBar setBackgroundImage:[PublicMethod getImgWithColor:[UIColor blackColor]] forBarMetrics:UIBarMetricsDefault];
+        [messageCenter.navigationBar setBackgroundImage:[PublicMothed getImgWithColor:[UIColor blackColor]] forBarMetrics:UIBarMetricsDefault];
         [messageCenter.tabBarItem setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor grayColor] ,NSFontAttributeName : [UIFont boldSystemFontOfSize:17]} forState:UIControlStateNormal];
         [messageCenter.tabBarItem setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor whiteColor] ,NSFontAttributeName : [UIFont boldSystemFontOfSize:20]} forState:UIControlStateSelected];
 //        [messageCenter.tabBarItem setImage:[[UIImage imageNamed:@"icon_sy_b_sy_black"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]];
@@ -182,7 +182,7 @@
         myInfoNav.navigationBar.barStyle = UIBarStyleBlack;
         [myInfoNav.navigationBar setTintColor:[UIColor whiteColor]];
         [myInfoNav.navigationBar setBarTintColor:[UIColor blackColor]];
-        [myInfoNav.navigationBar setBackgroundImage:[PublicMethod getImgWithColor:[UIColor blackColor]] forBarMetrics:UIBarMetricsDefault];
+        [myInfoNav.navigationBar setBackgroundImage:[PublicMothed getImgWithColor:[UIColor blackColor]] forBarMetrics:UIBarMetricsDefault];
         [myInfoNav.tabBarItem setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor grayColor] ,NSFontAttributeName : [UIFont boldSystemFontOfSize:17]} forState:UIControlStateNormal];
         [myInfoNav.tabBarItem setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor whiteColor] ,NSFontAttributeName : [UIFont boldSystemFontOfSize:20]} forState:UIControlStateSelected];
 //        [myInfoNav.tabBarItem setImage:[[UIImage imageNamed:@"icon_sy_b_sy_black"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]];

@@ -17,6 +17,41 @@
 #define VIEW_H(view) view.frame.size.height
 
 
+//设置圆角
+#define ViewRadius(view,radius) [view.layer setMasksToBounds:YES];\
+[view.layer setCornerRadius:(radius)];
+//设置圆角和边线
+#define ViewRadiusAndLine(view,radius,width,color) [view.layer setMasksToBounds:YES];\
+[view.layer setCornerRadius:(radius)];\
+[view.layer setBorderWidth:(width)];\
+[view.layer setBorderColor:[color CGColor]];
+
 #define GetImage(__key__) [UIImage imageNamed:__key__]
+
+/***********************************userDefault*************************************/
+//从userDefault中获取值
+#ifndef getObjectFromUserDefault
+#define getObjectFromUserDefault(__key__) \
+[[NSUserDefaults standardUserDefaults] objectForKey:__key__]
+#endif
+
+//setuserDefault值
+#ifndef setObjectToUserDefault
+#define setObjectToUserDefault(__key__, __val__) \
+[[NSUserDefaults standardUserDefaults] setObject:__val__ forKey:__key__]; \
+[[NSUserDefaults standardUserDefaults] synchronize];
+#endif
+
+//从userDeufalt中移除值
+#ifndef removeObjectFromUserDefault
+#define removeObjectFromUserDefault(__key__) \
+[[NSUserDefaults standardUserDefaults] removeObjectForKey:__key__]; \
+[[NSUserDefaults standardUserDefaults] synchronize];
+#endif
+
+
+
+
+
 
 #endif /* Method_pch */
