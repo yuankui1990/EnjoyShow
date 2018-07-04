@@ -100,6 +100,7 @@
     animation.fromValue = [NSNumber numberWithFloat:0.7];   //初始伸缩倍数
     animation.toValue = [NSNumber numberWithFloat:1.3];     //结束伸缩倍数
     [[btnArray[index] layer] addAnimation:animation forKey:nil];
+    [[_lineView layer] addAnimation:animation forKey:nil];
 }
 
 /**
